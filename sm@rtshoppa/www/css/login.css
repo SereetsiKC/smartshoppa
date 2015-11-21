@@ -1,0 +1,19 @@
+.alignRight{
+	float:right;
+	color:#000;
+	text-decoration:none;
+	
+}
+.links{
+	list-style-type:none;
+
+}
+#container{
+	width:25%;
+	height:auto;
+	margin-left:35%;
+	margin-top:10%;
+}
+#rd{
+	color:blue;
+}

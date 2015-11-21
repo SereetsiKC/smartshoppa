@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/login.css" />
+		<script type="text/javascript" src="js/validations.js"></script>
+		<title>Smartshoppa</title>
+    </head>
+	<body>
+		<div id="wrapper">
+			<div>
+				<li class="links"><a class="alignRight" href="#">Sign Up</a></li>
+			</div>
+			<br/>
+			<div id="container">
+			<div>
+				<label>Email    :<sup>*</sup> <input name="txtUsername" id="username" type="email" placeholder="Email address" class="alignRight" /></label>
+				</div>
+				<div><label>Password :<sup>*</sup> <input name="Password" type="password"  id="password" placeholder="Password" class="alignRight" /></label>
+				</div>
+				<br/>
+				<div>
+				<label for="remember"><input id="rdRemember" type="radio"/>Remember Me</label>
+				</div>
+				<div>
+					<p><input id="btnLogin" type="button" value="Login" onclick="valid()"/></p>
+				</div>
+				<div>
+					<input id="btnFacebook" type="button" value="facebook Login"/>
+					<input id="btnTwitter" type="button" value="Twitter Login"/>
+				</div>
+				
+			</div>
+		</div>
+	</body>
+</html>
