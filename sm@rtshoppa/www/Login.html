@@ -1,41 +1,46 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Example of Bootstrap 3 Vertical Form Layout</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script> 
 
-<html>
-	<head>
-        <meta charset="utf-8" />
-        <meta name="format-detection" content="telephone=no" />
-        <meta name="msapplication-tap-highlight" content="no" />
-        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        <link rel="stylesheet" type="text/css" href="css/login.css" />
-		<script type="text/javascript" src="js/validations.js"></script>
-		<title>Smartshoppa</title>
-    </head>
-	<body>
-		<div id="wrapper">
-			<div>
-				<li class="links"><a class="alignRight" href="#">Sign Up</a></li>
-			</div>
-			<br/>
-			<div id="container">
-			<div>
-				<label>Email    :<sup>*</sup> <input name="txtUsername" id="username" type="email" placeholder="Email address" class="alignRight" /></label>
-				</div>
-				<div><label>Password :<sup>*</sup> <input name="Password" type="password"  id="password" placeholder="Password" class="alignRight" /></label>
-				</div>
-				<br/>
-				<div>
-				<label for="remember"><input id="rdRemember" type="radio"/>Remember Me</label>
-				</div>
-				<div>
-					<p><input id="btnLogin" type="button" value="Login" onclick="valid()"/></p>
-				</div>
-				<div>
-					<input id="btnFacebook" type="button" value="facebook Login"/>
-					<input id="btnTwitter" type="button" value="Twitter Login"/>
-				</div>
-				
-			</div>
-		</div>
-	</body>
-</html>
+</head>
+<body>
+
+<br />
+<div class="container">
+    <div class="row">
+   
+        <div class="col-sm-12 col-xs-12 col-md-4 centered" style="margin-left: 35%; ">
+         <div class="panel panel-default">
+    <div class="panel-body">
+        <div class="text-center">
+        <img src="img/logo.png" height="100px" align="center" width="200px"/>
+        </div>
+    <form>
+        <div class="form-group">
+           
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+        </div>
+        <div class="form-group">
+          
+            <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+        </div>
+        <div class="checkbox">
+            <label><input type="checkbox"> Remember me</label>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Login</button>
+        <br />
+         <div class="text-center">
+        <img src="img/facebook.png" style="margin-right: 10%; " height="80px" align="center" width="80px"/>
+         <img src="img/twitter.png" height="80px" style="margin-right: 10%;" align="center" width="80px"/>
+          <img src="img/instagram.png" height="80px" align="center" width="80px"/>
+            </div>
+    </form>
+</div></div></div></div></div>
+</body>
+</html>                                		
