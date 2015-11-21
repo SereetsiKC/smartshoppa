@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Drinks List</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+   
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/scripts.js"></script> 
+
+<style>
+.navbar-static-top {  
+   height:100px;    
+}
+</style>
+</head>
+<body>
+<div class="wrapper">
+    <div class="box">
+        <div class="row row-offcanvas row-offcanvas-left">
+         
+            <!-- sidebar -->
+            <div class="column col-sm-2 col-xs-1 sidebar-offcanvas" id="sidebar">
+              
+              	<ul class="nav">
+          			<li><a href="#" data-toggle="offcanvas" class="visible-xs text-center"><i class="glyphicon glyphicon-chevron-right"></i></a></li>
+            	</ul>
+               
+                <ul class="nav hidden-xs" id="lg-menu">
+                    <li class="active"><a href="HealthyFoodList.html"><i class="glyphicon glyphicon-list-alt"></i> Healthy Food</a></li>
+                    <li><a href="GroceriesList.html"><i class="glyphicon glyphicon-list"></i> Groceries</a></li>
+                    <li><a href="BBQList.html"><i class="glyphicon glyphicon-paperclip"></i>BBQ</a></li>
+                    <li><a href="DrinksList.html"><i class="glyphicon glyphicon-refresh"></i> Drinks</a></li>
+                </ul>
+                <ul class="list-unstyled hidden-xs" id="sidebar-footer">
+                    <li>
+                      <a href="#"><h3>SmartShoppa</h3> </a>
+                    </li>
+                </ul>
+              
+              	<!-- tiny only nav-->
+              <ul class="nav visible-xs" id="xs-menu">
+                  	<li><a href="#featured" class="text-center"><i class="glyphicon glyphicon-list-alt"></i></a></li>
+                    <li><a href="#stories" class="text-center"><i class="glyphicon glyphicon-list"></i></a></li>
+                  	<li><a href="#" class="text-center"><i class="glyphicon glyphicon-paperclip"></i></a></li>
+                    <li><a href="#" class="text-center"><i class="glyphicon glyphicon-refresh"></i></a></li>
+                </ul>
+              
+            </div>
+            <!-- /sidebar -->
+          
+            <!-- main right col -->
+            <div class="column col-sm-10 col-xs-11" id="main">
+                
+                <!-- top nav -->
+              	<div class="navbar navbar-blue navbar-static-top">  
+                    <div class="navbar-header">
+                      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle</span>
+                        <span class="icon-bar"></span>
+          				<span class="icon-bar"></span>
+          				<span class="icon-bar"></span>
+                      </button>
+                      <a href="#" class="navbar-brand">
+                      <img src="img/logo.png" height="80px" width="220px" />
+                      </a>
+                  	</div>
+                  	<nav class="collapse navbar-collapse" role="navigation">
+               
+                   
+                    
+                      <div style="width:100px; height:100px;float:right;"><img src="img/profileimage.png" height="100px" width="100px" /></a></div>
+                        
+                  	</nav>
+                </div>
+                <!-- /top nav -->
+             <br /><br /><br />
+          <!-- Service List -->
+        <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+        <div class="row">
+             <div class="col-lg-12">
+                <h2 class="page-header">Drinks List</h2>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="img/healthyfood/1.png" alt="">
+                    <div class="caption">
+                      <h3>
+                            <small>Avocado</small>
+                        </h3>
+                      
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="img/healthyfood/2.png" alt="">
+                    <div class="caption">
+                        <h3>
+                            <small>Banana </small>
+                        </h3>
+                      
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="img/healthyfood/3.png" alt="">
+                    <div class="caption">
+                        <h3>
+                            <small>Milk</small>
+                        </h3>
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="img/healthyfood/4.png" alt="">
+                    <div class="caption">
+                        <h3>
+                            <small>Whole wheat bread</small>
+                        </h3>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="img/healthyfood/5.png" alt="">
+                    <div class="caption">
+                        <h3>
+                            <small>Eggs</small>
+                        </h3>
+                   
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="img/healthyfood/6.png" alt="">
+                    <div class="caption">
+                        <h3>
+                            <small>Green Tea</small>
+                        </h3>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        </div>
+    
+    </div>
+</div>
+
+
+<!--post modal-->
+<div id="postModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+  <div class="modal-content">
+      <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+			Update Status
+      </div>
+      <div class="modal-body">
+          <form class="form center-block">
+            <div class="form-group">
+              <textarea class="form-control input-lg" autofocus="" placeholder="What do you want to share?"></textarea>
+            </div>
+          </form>
+      </div>
+      <div class="modal-footer">
+          <div>
+          <button class="btn btn-primary btn-sm" data-dismiss="modal" aria-hidden="true">Post</button>
+            <ul class="pull-left list-inline"><li><a href=""><i class="glyphicon glyphicon-upload"></i></a></li><li><a href=""><i class="glyphicon glyphicon-camera"></i></a></li><li><a href=""><i class="glyphicon glyphicon-map-marker"></i></a></li></ul>
+		  </div>	
+      </div>
+  </div>
+  </div>
+</div></div>
+	<!-- script references -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+
+</html>                                		
